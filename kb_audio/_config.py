@@ -5,6 +5,7 @@ def add_period_ifnot_exists(ext):
 # config
 dbname = "kb_audio.sqlite"
 url = "http://www.kevinandbeanarchive.com/audio.php"
+save_loc = "\\99.1.1.10\vid\listen"
 
 # thumbs config
 thumb_paths = [r'C:\emp_thumbz\vids', r'C:\emp_thumbz\vids_another_folder']

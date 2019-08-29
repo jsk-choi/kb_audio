@@ -11,6 +11,7 @@
     <OutputPath>.</OutputPath>
     <Name>kb_audio</Name>
     <RootNamespace>kb_audio</RootNamespace>
+    <SuppressEnvironmentCreationPrompt>True</SuppressEnvironmentCreationPrompt>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,6 +22,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="dbaccess.py" />
     <Compile Include="dbsetup.py" />
     <Compile Include="kb_audio.py" />
     <Compile Include="_classes.py" />
