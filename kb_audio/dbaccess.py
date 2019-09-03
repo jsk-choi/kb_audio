@@ -8,7 +8,7 @@ def audiofiles_insert(url, desc):
     conn = sqlite3.connect(cf.dbname)
     cursor = conn.cursor()
 
-    insert_stmt = "INSERT INTO audiofiles (AudioUrl, AudioText) VALUES ('%s','%s')" % (url, desc)
+    insert_stmt = "INSERT INTO audiofiles (AudioUrl, AudioText) VALUES ('%s','%s')" % (url.replace("'", "''"), desc.replace("'", "''"))
 
     conn.execute(insert_stmt)
 
