@@ -1,9 +1,12 @@
 antiorm==1.2.1
 astroid==2.2.5
 beautifulsoup4==4.8.0
+certifi==2019.6.16
+chardet==3.0.4
 colorama==0.4.1
 db==0.1.1
 db-sqlite3==0.0.1
+idna==2.8
 isort==4.3.21
 lazy-object-proxy==1.4.2
 mccabe==0.6.1
@@ -11,6 +14,7 @@ numpy==1.17.1
 opencv-python==4.1.0.25
 pip==19.0.3
 pylint==2.3.1
+requests==2.22.0
 setuptools==40.8.0
 six==1.12.0
 soupsieve==1.9.3

@@ -4,10 +4,9 @@ import dbaccess as dal
 import urllib.request
 from bs4 import BeautifulSoup
 
-
 def get_html(path):
-    path = urllib.parse.quote(path)
-    fp = urllib.request.urlopen(cf.url + path)
+    #path = urllib.parse.quote(path)
+    fp = urllib.request.urlopen(cf.url + path.replace(' ', '%20'))
     mybytes = fp.read()
     mystr = mybytes.decode("utf8")
     fp.close()
